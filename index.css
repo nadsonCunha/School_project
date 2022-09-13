@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Edu+TAS+Beginner:wght@500&family=Yanone+Kaffeesatz&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&family=Edu+TAS+Beginner:wght@500&family=Yanone+Kaffeesatz&display=swap');
+
+
+#content-layer {
+    width: 1519px;
+    height: auto;
+    align-content: center;
+    position: relative;
+}
+
+#nav-menu{
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+#nav-menu li a{
+    color: #37abc8ff;
+    font-family:'Dosis', sans-serif;
+    font-weight: bold;
+}
+
+#nav-menu li a:hover {
+    color: white;
+    font-family:'Dosis', sans-serif;
+    font-weight: bold;
+}
+
+#nav-menu h3{
+    color: white;
+    font-size: 12pt;
+    left: auto;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+}
+
+#nav-menu h3 span{
+    color: #37abc8ff;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.gradient {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,30,191,1) 22%, rgba(0,212,255,1) 100%);
+    height:  600px;
+    width: auto;
+    position: relative;
+}
+
+.gradient:before {
+    content: '';
+   
+    width: auto;
+    height: 1500px;
+    background-color: black;
+}
+
+#first-section {
+    height: 800px;
+    width: auto;
+}
+
+#parf {
+    padding-top: 40px;
+    align-items: center;
+}
+
+#par-banner p {
+    text-align: justify;
+    width: 500px;
+    height: auto;
+    color: white;
+    margin-left: 250px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 16pt;
+    margin-top: 150px;
+    position: relative;
+}
+
+#par-banner p span{
+    color: darkgray;
+    font-style: italic;
+    font-size: 18pt;
+}
+
+#par-banner h2 {
+    color: darkgray;
+    font-size: 18pt;
+    font-family:'Dosis', sans-serif ;
+    align-self: auto;
+    position: inherit;
+    margin-left: 180px;
+    opacity: 0;
+
+}
+
+#banner-set {
+    height: 350px;
+    width: 550px;
+    margin-left: 880px;
+    position: absolute;
+    margin-top: -240px;
+}
+
+#btn-1 {
+    margin-left: 350px;
+}
+
+#btn-2 {
+    margin-left: 10px;
+}
+
+
+.wave {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -1px;
+}
+
+.second-se{
+    height: 600px;
+    width: auto;
+}
+
+#content-se img{
+    width: 500px;
+    height: 550px;
+    margin-top: 5px;
+    margin-left: 250px;
+}
+
+#content-se article {
+    width: 550px;
+    height: auto;
+    text-align: justify;
+    text-align: center;
+    color: rgba(0, 2, 53, 0.662);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-left: 850px;
+    margin-top: -400px;
+}
+
+#content-se article h2 {
+    color: #37abc8ff ;
+}
+
+#content-se article h2 span {
+    color: rgb(57, 91, 100) ;
+}
+
+.footer-end {
+    width: auto;
+    height: 100px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,30,191,1) 22%, rgba(0,212,255,1) 100%);
+}
+
+.icons-line {
+    height: 80px;
+    width: auto;
+}
+
+.icons-line ul {
+    list-style: none;
+    margin-left: 600px;
+}
+
+.icons-line li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.icons-end {
+    height: 40px;
+    width: 40px;
+}
+
+#footer-p {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 10pt;
+    margin-top: -15px;
+    margin-left: 690px;
+}
+
+.sobre-section {
+    width: 1100px;
+    height: auto;
+    margin-left: 280px;
+    padding-top: 70px;
+    text-align: justify;
+    text-align: right;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 16pt;
+}
+
+.sobre-section h2 span {
+    color: rgb(161, 190, 197) ;
+    font-style: italic;
+}
+
+.gal-1 {
+    height: 500px;
+    width:auto
+}
+
+.gal-1 ul {
+    list-style: none;
+}
+
+.gal-1 li {
+    height: 470px;
+    width: 300px;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.gal-2 {
+    height: 500px;
+    width:auto
+}
+
+.gal-2 ul {
+    list-style: none;
+}
+
+.gal-2 li {
+    height: 470px;
+    width: 300px;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.gal-3 {
+    height: 500px;
+    width:auto
+}
+
+.gal-3 ul {
+    list-style: none;
+}
+
+.gal-3 li {
+    height: 470px;
+    width: 300px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.gal-img {
+    width: 300px;
+    height: 460px;
+    border-radius: 10px;
+}
+
+.galery {
+    height: 1600px;
+    width: auto;
+    padding-left: 250px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,30,191,1) 22%, rgba(0,212,255,1) 100%);
+}
+
+.galery h2 {
+    color: white;
+    font-size: 18pt;
+    font-family:'Dosis', sans-serif ;
+}
+
+.galery h2 span {
+    color: #37abc8ff ;
+}
+
+.galery p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 16pt;
+    color: white;
+}
